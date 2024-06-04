@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viren Vora</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.jpg"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/My-Photo.jpg"
+              alt="Viren Vora"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Viren Vora">Viren Vora</h1>
+
+            <p class="title">Web developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="virenvora0250@gmail.com" class="contact-link">
+                  virenvora0250@gmail.com
+                </a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+91 8200089213</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">April 23, 2004</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Surat, Gujarat, INDIA</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/share/D1mCB6QTYAJchK9P/?mibextid=qi2Omg"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://x.com/VivekMerr72453?t=4kdfRokrkmvY3qJHUvWaSQ&s=08"
+                class="social-link"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/viren__vora?utm_source=qr&igsh=NnB0MmF6dnRvbHRn"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/viren-vora-a765ba285/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/viren0250" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Hello! I'm Viren Vora. I'm MERN Stack Developer from Gujarat,
+              India, working in web development. I enjoy turning complex
+              problems into simple, beautiful and intuitive designs.
+            </p>
+
+            <p>
+              My job is to build your website so that it is functional and
+              user-friendly but at the same time attractive. Moreover, I add
+              personal touch to your product and make sure that is eye-catching
+              and easy to use. My aim is to bring across your message and
+              identity in the most creative way.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">
+                    I make high-quality photos of any category at a professional
+                    level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Bachelor Of Engineering</h4>
+
+                <span>2021 — 2025</span>
+
+                <p class="timeline-text">
+                  <span>Government Engineering College,Rajkot</span> <br />
+                  Pursuing a degree in Computer Engineering at Government
+                  Engineering College, Rajkot, with a focus on gaining practical
+                  skills and theoretical knowledge in software development
+                  systems engineering.
+                  <br />
+                  CPI :- 8.30 (till 5th semester) <br />
+                  CGPA :- 8.09 (till 5th semester)
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">HSC</h4>
+
+                <span>2020 — 2021</span>
+
+                <p class="timeline-text">
+                  <span>Tapovan Group Of School, Surat</span>
+                  83.09%
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">SSC</h4>
+
+                <span>2018 — 2019</span>
+
+                <p class="timeline-text">
+                  <span>Sadvidhya Sankul, Surat</span>
+                  84.50%
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Technohacks Internship - [Web Development]
+                </h4>
+
+                <span>2023</span>
+
+                <p class="timeline-text">
+                  The TechnoHacks Internship Program offers a unique and
+                  immersive experience for aspiring tech professionals eager to
+                  dive into the world of cutting-edge technology and innovative
+                  solutions. Designed for ambitious, forward-thinking students
+                  and recent graduates, this internship provides hands-on
+                  experience in a dynamic and fast-paced startup environment.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills">Web Design</li>
+              <li class="skills">HTML</li>
+              <li class="skills">CSS</li>
+              <li class="skills">TAILWIND</li>
+              <li class="skills">JAVASCRIPT</li>
+              <li class="skills">REACT</li>
+              <li class="skills">SQL</li>
+              <li class="skills">Python</li>
+              <li class="skills">JAVA</li>
+              <li class="skills">PHP</li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+
+            <ul class="project-list">
+
+              <li class="project-item active">
+                <a href="https://github.com/viren0250/Password-Generator.git">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Password-Generator.png"
+                      alt="Password-Generator"
+                      width="100%" height="100%"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Password Generator</h3>
+
+                  <p class="project-category">Password Generator is your one-stop shop for creating secure and unique passwords for all your online accounts. <br>
+                  Our user-friendly web app makes it easy to:
+                  Generate strong, random passwords,
+                  Customize your password strength,
+                  Simple and secure. <br>
+                  <p class="abc">Technology Used: <br>
+                    <p class="project-category">HTML, CSS, JavaScript</p>
+                  </p>
+                </p>
+              </a>
+              </li>
+
+              <li class="project-item active">
+                <a href="https://github.com/viren0250/Top-Course.git">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/Top-Course.jpg" alt="Top-Course" 
+                    width="100%" height="100%"
+                    loading="lazy" />
+                  </figure>
+              
+                  <h3 class="project-title">Top Course</h3>
+              
+                  <p class="project-category">It is a website which shows the many filter components and this components is useful for the users for filter the courses.So that, user can find the course easily which is important for them. <br>
+                    <p class="abc">Technology Used: <br>
+                    <p class="project-category">HTML, TAILWIND, REACT</p>
+                  </p>
+                  </p>
+                </a>
+              </li>
+
+              <li class="project-item active">
+                <a href="https://github.com/viren0250/Shopping-Cart.git">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/Shopping-Cart.jpg" alt="Shopping-Cart" width="100%" height="100%" loading="lazy" />
+                  </figure>
+              
+                  <h3 class="project-title">Shopping Cart</h3>
+              
+                  <p class="project-category">It is a Shopping Cart website. In this, user can choose a product which he want and cart the item and in last, they can place the order.<br>
+                    <p class="abc">Technology Used: <br>
+                    <p class="project-category">HTML, TAILWIND, REACT</p>
+                  </p>
+                  </p>
+                </a>
+              </li>
+
+            </ul>
+          </section>
+        </article>
+
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1314.8275221538504!2d72.90894391240883!3d21.236058364822714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0454b3f7da62f%3A0x1dcb2287cf6b9102!2sShyamdham%20mandir%20circle!5e0!3m2!1sen!2sin!4v1717412198092!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
